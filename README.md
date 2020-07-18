@@ -46,14 +46,16 @@ Command:
 Command:
 
 `vboxmanage usbfilter add 0 --target default --name 'Nexus' --vendorid YOUR_vendorid --productid YOUR_productid`
-- p.s. you can also do it through VirtualBox GUI on USB settings tab.
+
+- You can also do it through VirtualBox GUI on USB settings tab.
 
 10. Enable docker environment:
 
 Command:
 
 `eval "$(docker-machine env default)"`
-p.s. Your VirtualBox image name might be different from "default" if you changed it on step 4.
+
+- Your VirtualBox image name might be different from "default" if you changed it on step 4.
 
 11. Pull the image
 
@@ -92,7 +94,6 @@ Commands:
 
 `frida-ps -Uai` (make sure you see your apps list)
 
-
 ### Android:
 
 Commands:
@@ -102,3 +103,10 @@ Commands:
 `adb devices` (Make sure ADB is enabled in device settings and press "Allow USB debugging")
 
 `frida-ps -Uai` (make sure frida-server is running on your device)
+
+## TODO:
+
+- [ ] Linux initial set-up walkthrough
+- [ ] Tool usage examples
+- [ ] Conference links
+- [ ] List of installed components inside container
