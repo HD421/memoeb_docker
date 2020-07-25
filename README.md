@@ -61,7 +61,7 @@ Command:
 
 Command:
 
-`docker pull hd421/memoeb:updated`
+`docker pull hd421/memoeb:tmp`
 
 ## After docker set-up:
 
