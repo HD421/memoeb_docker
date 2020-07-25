@@ -96,6 +96,8 @@ Commands:
 
 `source /usr/local/rvm/scripts/rvm` (enable RVM)
 
+Inside /home/memoeb_v2:
+
 `ruby app.rb 'AppName' -d` (start dynamic analysis)
 
 ### Android:
@@ -109,6 +111,8 @@ Commands:
 `frida-ps -Uai` (make sure frida-server is running on your device)
 
 `source /usr/local/rvm/scripts/rvm` (enable RVM)
+
+Inside /home/memoeb_v2:
 
 `ruby app.rb 'bundle.id.here' -d` (start dynamic analysis)
 
