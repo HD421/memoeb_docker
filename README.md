@@ -94,6 +94,10 @@ Commands:
 
 `frida-ps -Uai` (make sure you see your apps list)
 
+`source /usr/local/rvm/scripts/rvm` (enable RVM)
+
+`ruby app.rb 'AppName' -d` (start dynamic analysis)
+
 ### Android:
 
 Commands:
@@ -103,6 +107,10 @@ Commands:
 `adb devices` (Make sure ADB is enabled in device settings and press "Allow USB debugging")
 
 `frida-ps -Uai` (make sure frida-server is running on your device)
+
+`source /usr/local/rvm/scripts/rvm` (enable RVM)
+
+`ruby app.rb 'bundle.id.here' -d` (start dynamic analysis)
 
 ## TODO:
 
